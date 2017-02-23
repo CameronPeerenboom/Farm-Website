@@ -1,0 +1,264 @@
+/*The body controls the brown background */
+body{
+    background-image: url(http://www.pixeden.com/media/k2/galleries/26/004-dark-texture.jpg);
+   
+}
+/*The Top area and title area controls the green heading at the top of the pages all the headings */
+.top_area{
+    border-radius: 30%;
+    border-color: black;
+    background-color: black;
+}
+.title_area{
+    border-radius: 30%;
+    border-color: black;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+#header {
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:White;
+}
+#navbar{
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    color: White;
+}
+/* this is the side bar on every page*/
+.content_area{
+    border-radius:5%;
+    background:   url( http://api.thumbr.it/whitenoise-361x370.png?);
+    width: 20%;
+    height: 100%;
+    text-align: justify;
+    float: left;
+    padding-top: 10px;
+    color: #006300 ;
+    
+}
+.content_area h2,h4{
+    text-align: center;
+}
+#Hover1:hover{
+    font-size: 25px;
+    color: black;
+}
+#Hover2:hover,#Hover2:Visited{
+    font-size: 25px;
+    color: black;
+}
+#Hover3:hover{
+    font-size: 25px;
+    color: black;
+}
+#Hover4:hover{
+    font-size: 25px;
+    color: black;
+}
+#Hover5:hover{
+    font-size: 25px;
+    color: black;
+}
+#Hover6:hover{
+    font-size: 25px;
+    color: black;
+}
+#Hover1:Link{
+    color:White;
+}
+.content_area ul li.selected a, .sidebar ul li a:hover {
+	color:#6b6b6b;
+}
+/* for every page there is a white section it is contolled here */
+.page{
+  height: auto;
+    width:77%;
+    float:right;
+   display: table;
+    content: ""; 
+    background:url( http://api.thumbr.it/whitenoise-361x370.png?);
+} 
+.page footer{
+    border-color: black;
+    background-color: green;
+    text-align: center;
+}
+/* from the homepage */
+
+#location{
+    text-align: center; 
+    align-content: center;
+    padding-top: 5%;
+}
+#about h2{
+    text-align: center;
+}
+#about{
+    width: 70%;
+    text-align: center;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#slideshow{
+    padding-left: 12%;
+    padding-top: 5%;
+}
+/*Delivery Multch and stone page */
+#mulch{
+    float:left;
+    padding-top: 3%;
+}
+#mulch h3{
+    text-align: center;
+}
+#stone{
+    float:right;
+}
+#stone h3{
+    text-align: center;
+}
+#charges{
+    width: 25%;
+    float:right;
+    padding-top: 5px;
+    padding-right: 15%;
+}
+#charges h2{
+    text-align: center;
+}
+#delivery{
+    float: left;
+    padding-left:15%;
+}
+#delivery h2{
+    text-align: center;
+}
+#landscape{
+    float: left;
+}
+#sm table{
+    float: left;
+    display:inline-block;
+    width 40%;
+}
+#sm{
+    display: inline-block;
+}
+#sm th{
+    font-size: 20px;
+}
+#howto{
+    padding-left: 12%;
+    padding-bottom: 5%;
+    
+}
+/* Plant page */
+#Plants{
+font-size: 20px;
+}
+#border-bottom: 1px solid #ddd;
+}
+#Plants h2{
+    font-family: monospace;
+    text-align: center;
+    align-content: center;
+    padding-left: 45%;
+}
+#planthelp iframe{
+    align-content: center;
+    padding-left: 20%;
+}
+#planthelp p{
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 16%;
+}
+
+/*Tree Page */
+#find{
+    color: darkgreen;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-top: 3%;
+    font-weight: bold;
+    
+}
+ #find a:link, #find a:visited {
+       color: darkgreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#small{
+    font-size: 22px;
+    float:left; 
+    padding-left:15%;
+    padding-top: 5%;
+    align-content: center;
+}
+#trees{
+    float:left; 
+    align-content: center;
+    padding-left: 15%;
+    font-size: 22px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+#spealties {
+    width:40%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 25%;
+    font-size: 22px;
+}
+/*Contact us page */
+#formval{
+    padding-left: 5%;
+}
+#information img{
+    padding: 2%;
+}
+#information{
+    display: inline;
+}
+#information h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#information p{
+   font-family: sans-serif;
+    font-size: 20px;
+    float: right;
+    width: 35%;
+    padding-right: 5%;
+}
+#information form{
+    float: left;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+/* Links */
+a:link, a:visited {
+       color: orangered;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="FinalWebsite.css">
+    <div class="title_area">
+            <head>Contact Us </head>
+        </div>           
+    <div class="content_area">
+                         <div class="link_page">
+        <ul>
+            <div id="Hover1"><li><a href="FinalWebsite.html">Home</a></li></div>
+            <div id="Hover2"><li><a href="FinalWebsiteDelivery.html">Delivery</a></li></div>
+            <div id="Hover3"><li><a href="FinalWebsiteDelivery.html">Mulch</a></li></div>
+            <div id="Hover4"><li><a href="FinalWebsitePlantPage.html">Plants</a></li></div>
+            <div id="Hover5"><li><a href="FinalWebsitetreepage.html">Trees</a></li></div>
+            <div id="Hover6"><li><a href="finalpagejava.html">Contact Us</a></li></div>
+                </ul>
+    </div> 
+            <h2>Where you can find us</h2>
+            <h4>Buttonwood Farms Nursery</h4>    
+            <ul>
+                    <li>1094 Hilton Parma Road</li>
+                    <li>Phone (585)406-3502</li>
+                    <li>Fax (585)406-2502</li>
+                    <li>Email cpeerenboom@albany.edu</li>
+            </ul>
+              <h4>Hours of Operation</h4>
+                <ul> 
+                <li>Monday 9am-6pm</li>
+                <li>Tuesday 9am-6pm</li>
+                <li>Wednesday 9am-6pm</li>
+                <li>Thrusday 9am-6pm</li>
+                <li>Friday 9am-6pm</li>
+                <li>Saturday 9am-5pm</li>
+                <li>Sunday 9am-4pm</li>
+            </ul>
+                    </div>
+    <div class="page">
+<body>
+
+
+   <div id="information">
+       <h3>Sign up with Buttonwood Farms and ask your question</h3>
+              <div id="formval">
+           <form name="myForm" action="" onsubmit="return validateForm();" method="post">
+Name:<br/> 
+     <input type='text' name='name' /><br />
+     <br/>
+Email: <br/>
+     <input type="text" name="email"><br/>
+     <br/>
+Number: <br/>
+     <input type='text' name='website'/><br />
+     <br/>
+Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+     <br/>
+     <button id="myBtn">Send Message</button>
+
+</form>
+       </div> 
+      <img src="homedepot.png" width=300 height=300 usemap="#homedepot">
+       <map name="homedepot" >
+       <area shape="rect" coords="0,0,300,300" a href="http://www.homedepot.com/c/tool_and_truck_rental " target="_blank">
+       </map> 
+       <p>Home depot has all the rental tools you'll need to help build the lascape you want. Click on the image to the left and check out what they have to offer.</p>
+    </div>
+
+            <script>        
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+    alert ("Thank You for signing up and asking your question. We will call you with an answer within 2 business days.");
+}
+</script>
+        
+    
+  
+        </body>
+     <footer><P>&copy; Copyright 2016, Boom's Websites <a href="ResumeDec16.pdf">CEO of Boom's Websites&copy; Resume</a> </P></footer> 
+    </div>
+
+</html>
